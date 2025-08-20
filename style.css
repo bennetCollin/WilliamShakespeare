@@ -1,0 +1,81 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Segoe UI, Roboto, sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background: #fffef8;
+}
+
+.banner {
+  text-align: center;
+  padding: 24px 12px;
+  background: linear-gradient(90deg, #ffd166, #ffe9a3);
+  border-bottom: 4px solid #e0b94c;
+}
+.banner h1 {
+  margin: 0 0 4px 0;
+  font-size: 2.2rem;
+}
+.banner p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+main {
+  max-width: 720px;
+  margin: 16px auto;
+  padding: 0 12px 24px;
+}
+
+.portrait {
+  text-align: center;
+  background: #eef2f7;
+  padding: 12px;
+  border: 2px solid #d7dee8;
+  border-radius: 8px;
+}
+.portrait img {
+  width: 240px;
+  height: auto;
+  border-radius: 6px;
+  border: 3px solid white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.portrait figcaption {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 6px;
+}
+
+h2 {
+  margin: 18px 0 8px;
+  font-size: 1.2rem;
+  border-left: 6px solid #ffd166;
+  padding-left: 8px;
+}
+
+.facts table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
+.facts th, .facts td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+.facts th {
+  text-align: left;
+  width: 28%;
+  background: #fafafa;
+}
+
+.plays ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+.plays li {
+  margin: 4px 0;
+}
